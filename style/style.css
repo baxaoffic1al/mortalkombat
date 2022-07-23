@@ -1,0 +1,546 @@
+@import 'font.css';
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.header{
+    position: relative;
+}
+.imo01{
+    width: 100%;
+}
+.qwer{
+    background: rgba(8, 9, 10, 0.75);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.lishki{
+font-family: 'Gothic A1';
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+text-decoration: none;
+margin: 0 20px;
+padding: 10px;
+}
+
+.navchik{
+    background: rgba(0, 0, 0, 0.45);
+box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.09);
+}
+.lishki_search{
+    margin-left: 237px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: -4px;
+}
+a:hover {
+    color: white;
+}  
+.hola{
+    margin-top: 200px;
+}
+.bought{
+font-family: 'Gothic A1';
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+padding: 13px 60px;
+color: #FFFFFF;
+text-decoration: none;
+border: 3px solid #FFFFFF;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+width: 203px;
+align-items: center;
+margin-left: 160px;
+    margin-top: 50px;
+}
+.section-one{
+    background: radial-gradient(50% 4517.2% at 50% 47.52%, #2C3136 0%, #6D2D23 0%, #1A1F25 70.94%);
+}
+.lorem{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+color: #FFFFFF;
+padding-top: 80px;
+padding-bottom: 80px;
+text-align: center;
+}
+.imo4{
+width: 100%;
+}
+.section-two{
+    position: relative;
+}
+.qwerty{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        background: rgba(36, 36, 36, 0.5);
+}
+.in{
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+color: #CFAA6D;
+margin-top: 30px;
+margin-bottom: 20px;
+
+}
+.on{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+width: 368px;
+}
+.inside{
+    text-align: center;
+
+}
+.asdf{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-three{
+    position: relative;
+}
+
+
+.section-three:hover .imo7{
+    transform: translateX(5%);
+}
+.section-three:hover .imo8{
+    transform: translateX(-5%);
+}
+
+.imo7 , .imo8{
+    width: 49%; 
+     transition: .8s;
+}
+
+
+.poiuy{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #28303B;
+    opacity: 0.9;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.new{
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #FFFFFF;
+}
+.popa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.vnuter{
+position: relative;
+width: max-content;
+}
+.sborka{
+position: absolute;
+top: 0;
+left: 0;
+width: 104%;
+margin-top: 272px;
+margin-left: -5px;
+margin-right: -5px;
+background: rgba(12, 14, 26, 0.8);
+transition: 1s;
+opacity: 0;
+}
+.vnuter:hover .sborka{
+    opacity: 1;
+}
+.ura{
+font-family: 'Gothic A1';
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+padding: 20px;
+}
+.doda{
+    display: flex;
+    align-items: center;
+}
+.emailchik{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+margin-bottom: 5px;
+}
+.passwordchik{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+}
+.utut{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+color: #CFAA6D;
+}
+.qweasd{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+color: #E5E5E5;
+}
+.asdfqwer{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+color: #CFAA6D;
+margin-left: 10px;
+}
+.footer{
+    background: #28303B;
+}
+.asdfzxcv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+input{
+width: 400px;
+height: 50px;
+background: rgba(196, 196, 196, 0.16);
+border: 3px solid #FFFFFF;
+box-sizing: border-box;
+}
+button{
+border: 3px solid #FFFFFF;
+box-sizing: border-box;
+padding: 10px 65px;
+margin-top: 70px;
+margin-left: 27%;
+background: none;
+color: white;
+}
+.faf{
+    width: 400px;
+}
+.asdfeqe{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.goga{
+    width: 100%;
+}
+.header-new{
+    position: relative;
+}
+.qweasdfzxcv{
+    background: rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.09);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.soderjimoe{
+    position: absolute;
+    top: 284px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hopahola{
+font-family: 'Gothic A1';
+font-weight: 700;
+font-size: 28px;
+line-height: 35px;
+text-align: center;
+margin-top: 60px;
+margin-bottom: 30px;
+color: #FFFFFF;width: 394px;
+}
+.lortm{
+font-family: 'Gothic A1';
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;width: 1130px;
+}
+.hrte{
+    width: 1000px;
+}
+.opoa{
+    width: 100%;
+}
+.seca-one{
+    position: relative;
+}
+.leska{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(44, 49, 54, 0.7);
+}
+.vidq{
+position: absolute;
+top: 113px;
+left: 279px;
+z-index: 2;
+transition: 1s;
+}
+
+.vidq:hover{
+    transform: 
+    perspective(200px) 
+    scaleZ(-1) 
+    translateZ(-50px);
+    z-index: 4;
+    top: 160px;
+    left: 379px; 
+}
+
+.vidw{
+position: absolute;
+top: 40px;
+left: 550px;
+z-index: 1;
+transition: 1s;
+}
+
+.vidw:hover{
+    transform: 
+    perspective(200px) 
+    scaleZ(-1) 
+    translateZ(-50px);
+    z-index: 4;
+    top: 100px;
+    left: 650px;
+}
+
+.vide{
+position: absolute;
+top: 40px;
+left: 992px;
+transition: 1s;
+}
+
+.vide:hover{
+    transform: 
+    perspective(200px) 
+    scaleZ(-1) 
+    translateZ(-50px);
+    z-index: 4;
+    top: 100px;
+    left: 1092px;
+}
+
+.vidr{
+position: absolute;
+top: 63px;
+left: 1207px;
+transition: 1s;
+}
+
+.vidr:hover{
+    transform: 
+    perspective(200px) 
+    scaleZ(-1) 
+    translateZ(-50px);
+    z-index: 4;
+    top: 120px;
+    left: 1300px;
+}
+
+.vidt{
+position: absolute;
+left: 550px;
+top: 188px;
+z-index: 3;
+transition: 1s;
+}
+
+.vidt:hover{
+    transform: 
+    perspective(200px) 
+    scaleZ(-1) 
+    translateZ(-50px);
+    z-index: 4;
+    top: 250px;
+    left: 650px;
+}
+
+.vida{
+    position: absolute;
+    left: 743px;
+    top: 93px;
+    z-index: 3;
+    transition: 1s;
+}
+
+.vida:hover{
+    transform: 
+    perspective(200px) 
+    scaleZ(-1) 
+    translateZ(-50px);
+    z-index: 4;
+    top: 130px;
+    left: 843px;
+}
+
+.vidd{
+    position: absolute;
+    top: 194px;
+    left: 1022px;
+    z-index: 3;
+    transition: 1s;
+}
+.vidd:hover{
+    transform: 
+    perspective(200px) 
+    scaleZ(-1) 
+    translateZ(-50px);
+    z-index: 4;
+    top: 255px;
+    left: 1122px;
+}
+.lodka{
+font-family: 'Gothic A1';
+font-weight: 700;
+font-size: 28px;
+line-height: 35px;
+text-align: center;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+margin-bottom: 30px;
+margin-top: 555px;
+}
+.nera{
+font-family: 'Gothic A1';
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+width: 1130px;
+margin-left: auto;
+margin-right: auto;
+}
+.asdfwqrxczv{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(44, 49, 54, 0.7);
+padding-top: 40px;
+}
+.asdfee{
+display: flex;
+justify-content: space-between;
+}
+.bbb , .jjj{
+    width: 625px;height: 350px;
+
+}
+.asdwggg{
+font-family: 'Gothic A1';
+font-weight: 700;
+font-size: 28px;
+line-height: 35px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 60px;
+margin-bottom: 30px;
+}
+.neera{
+font-family: 'Gothic A1';
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+text-align: center;    margin: 0 auto;
+color: #FFFFFF;width: 580px;
+}
+.chek{
+    background: #28303B;
+    padding-top: 56px;
+    padding-bottom: 92px;
+}
+.vera{
+    width: max-content;
+    margin: 0 auto;
+}
+.veraa{
+    width: max-content;
+    margin: 0 auto; 
+    margin-top: 45px;
+    margin-bottom: 80px;
+}
+.gera:first-child{
+    margin-right: 20px;
+}
+.geraa:nth-of-type(-n+2){
+    margin-right: 50px;
+}
+.textic{
+font-family: 'Gothic A1';
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+color: #FFFFFF;    width: 1202px;
+}
+}

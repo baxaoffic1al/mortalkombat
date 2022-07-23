@@ -1,0 +1,34 @@
+@font-face{
+    font-family: 'Cothic_A1' ;
+    src: url(../fonts/Gothic_A1/GothicA1-Bold.ttf);
+    font-weight: 900;
+}
+@font-face{
+    font-family: 'Cothic_A1' ;
+    src: url(../fonts/Gothic_A1/GothicA1-Regular.ttf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'Roboto' ;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: 900;
+}
+@font-face{
+    font-family: 'Roboto' ;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'Font Awesome' ;
+    src: url(../icon/webfonts/fa-light-300.woff2);
+    font-weight: 300;
+}
+.fal{
+font-family: 'Font Awesome';
+font-weight: 300;
+}
+.search::after{
+    content: '\f002';
+    font-size: 22px;
+}
